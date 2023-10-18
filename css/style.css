@@ -1,0 +1,214 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.699), rgba(0, 0, 0, 0.61)), url(../imagenes/vista-aerea.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.bienvenida {
+    text-align: center;
+}
+.bienvenida h1{
+    color: white;
+    font-family: "Poppins";
+    font-style: oblique;
+    font-size: 45px;
+    padding-top: 60px;
+}
+.bienvenida p{
+    color: aliceblue;
+    font-size: 27px;
+    padding-top: 40px;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    background-color: rgba(127, 255, 212, 0.411);
+    padding-bottom: 30px;
+}
+header img {
+    width: 50px;
+    position: relative;
+    right: 150;
+    padding-top: 15px;
+}
+#barraNavegacion ul{
+    list-style-type: none;
+    font-size: 20px;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+}
+#barraNavegacion li {
+    text-align: center;
+    margin-right: 15px;
+    text-decoration: none;
+}
+#barraNavegacion li a{
+    text-decoration: none;
+    padding: 2px 7px;
+    color: black;
+}
+.carousel-item active .carousel-item img {
+    max-width: 100px;
+    height: auto;
+}
+#carouselExampleFade{
+    width: 60%;
+    height: 80%;
+}
+.carrusel{
+    display: grid;
+    justify-items: center;
+    margin: 1.5625rem 0px;
+}
+.fotos-ciudad{
+    color: white;
+    padding: 40px 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap: 15px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.692);
+}
+.fotos-ciudad img{
+    padding: 12px 0px;
+    width: 100%;
+    height: auto;
+}
+.boton-home{
+    text-align: center;
+    align-items: center;
+    background-color: rgba(127, 255, 212, 0.411);
+    padding: 10px;
+}
+.boton-home a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+/* imagenes-eleccion img {
+    height: auto;
+    object-fit: cover;
+} */
+footer{
+    background-color: black;
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 15px;
+    align-items: center;
+    z-index: 2000;
+}
+.formulario {
+    color: white;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.texto-formulario{
+    color: white;
+    padding-left: 20px;
+}
+.texto-formulario p{
+    padding-top: 20px;
+}
+.imagenes-eleccion {
+    width: 50%; 
+    height: auto;
+    padding-top: 25px;
+}
+.boton-enviar {
+    margin-top: 25px;
+}
+input[type="submit"]:hover {
+background-color: rgba(0, 0, 0, 0.5);
+font-size: 16px;
+}
+/* Cambiar el color de fondo del botón a azul y el color del texto a blanco */
+input[type="submit"] {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 8px 10px;
+    font-weight: 400;
+  }
+ 
+.sobre-nosotros h2{
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.sobre-nosotros p{
+    padding: 30px 20px;
+    color: white;
+}
+.contacto{
+    background-color: rgba(127, 255, 212, 0.26);
+}
+.selector{
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+.campo-formulario{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding-left: 20px;
+}
+@media (max-width: 414px){
+    .bienvenida h1{
+        font-size: 30px;
+        padding-top: 45px;
+    }
+    .bienvenida p{
+        font-size: 17px;
+        padding: 40px 20px;
+    }
+    header img {
+        right: 10;
+        bottom: 45;
+    }
+    #barraNavegacion ul{
+        font-size: 15px;
+        padding-top: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+    .fotos-ciudad{
+        color: white;
+        padding: 40px 30px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    footer{
+        font-size: 10px;
+    }
+    .campo-formulario{
+        display: flex;
+        flex-direction: column;
+    }
+    /* .fotos-ciudad{
+        color: white;
+        padding: 40px 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .fotos-ciudad img{
+        padding: 12px 0px;
+        width: 40%;
+        height: auto;
+    } */
+}
