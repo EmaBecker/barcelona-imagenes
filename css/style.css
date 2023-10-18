@@ -32,6 +32,9 @@ header {
     z-index: 2000;
     background-color: rgba(127, 255, 212, 0.411);
     padding-bottom: 30px;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
 }
 header img {
     width: 50px;
@@ -55,6 +58,10 @@ header img {
     text-decoration: none;
     padding: 2px 7px;
     color: black;
+}
+#barraNavegacion li a:hover{
+    text-decoration: underline;
+    color: beige;
 }
 .carousel-item active .carousel-item img {
     max-width: 100px;
