@@ -1,0 +1,36 @@
+.bienvenida {
+    text-align: center;
+    h1{
+        color: white;
+        font-family: "Poppins";
+        font-style: oblique;
+        font-size: 45px;
+        padding-top: 60px;
+    }
+    p{
+        color: aliceblue;
+        font-size: 27px;
+        padding-top: 40px;
+    }
+}
+// .carousel-item active .carousel-item img {
+//     max-width: 100px;
+//     height: auto;
+// }
+// #carouselExampleFade{
+//     width: 60%;
+//     height: 80%;
+// }
+.carrusel{
+    display: grid;
+    justify-items: center;
+    margin: 1.5625rem 0px;
+    #carouselExampleFade{
+        width: 60%;
+        height: 80%;
+    }
+    .carousel-item active .carousel-item img {
+        max-width: 100px;
+        height: auto;
+    }
+}

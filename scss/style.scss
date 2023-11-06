@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    }
+// general
+@import"./general/body.scss";
+@import"./general/footer.scss";
+@import"./general/header.scss";
+@import"./general/boton-volver.scss";
+
+    // paginas 
+    @import "./paginas/index.scss";
+    @import "./paginas/ver-imagenes.scss";
+    @import "./paginas/elegi-la-imagen.scss";
+    @import "./paginas/sobre-nosotros.scss";
+    @import "./paginas/contacto.scss";
+
+    // resposive
+    @import"./responsive/mobile.scss";

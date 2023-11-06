@@ -1,0 +1,15 @@
+.fotos-ciudad{
+    color: white;
+    padding: 40px 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap: 15px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.692);
+    img{
+        padding: 12px 0px;
+        width: 100%;
+        height: auto;
+    }
+}

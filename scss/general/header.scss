@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+    background-color: rgba(127, 255, 212, 0.411);
+    padding-bottom: 30px;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    img {
+        width: 50px;
+        position: relative;
+        right: 150;
+        padding-top: 15px;
+    }
+    }
+
+    #barraNavegacion ul{
+        list-style-type: none;
+        font-size: 20px;
+        padding-top: 25px;
+        display: flex;
+        flex-direction: row;
+        li {
+            text-align: center;
+            margin-right: 15px;
+            text-decoration: none;
+            a{
+                text-decoration: none;
+                padding: 2px 7px;
+                color: black;
+                &:hover{
+                    text-decoration: underline;
+                    color: beige;
+                }
+            }
+        }
+        }

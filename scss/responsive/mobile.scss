@@ -1,0 +1,33 @@
+@media (max-width: 414px){
+    .bienvenida h1{
+        font-size: 30px;
+        padding-top: 45px;
+        p{
+            font-size: 17px;
+            padding: 40px 20px;
+        }
+    }
+    header img {
+        right: 10;
+        bottom: 45;
+    }
+    #barraNavegacion ul{
+        font-size: 15px;
+        padding-top: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+    .fotos-ciudad{
+        color: white;
+        padding: 40px 30px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    footer{
+        font-size: 10px;
+    }
+    .campo-formulario{
+        display: flex;
+        flex-direction: column;
+    }
+}
