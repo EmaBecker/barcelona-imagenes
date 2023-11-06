@@ -149,6 +149,9 @@ header img {
   font-weight: 400;
 }
 
+.sobre-nosotros {
+  background-color: rgba(0, 0, 0, 0.692);
+}
 .sobre-nosotros h2 {
   color: white;
   padding: 20px;
@@ -156,8 +159,9 @@ header img {
   justify-content: center;
 }
 .sobre-nosotros p {
-  padding: 30px 20px;
+  padding: 15px 20px;
   color: white;
+  font-size: 20px;
 }
 
 .contacto {
